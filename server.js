@@ -25,3 +25,5 @@ io.on('connection', client => {
 
 const PORT = 9999
 server.listen(PORT, () => console.log(`Server listening on port ${PORT}`))
+
+module.exports = app;
